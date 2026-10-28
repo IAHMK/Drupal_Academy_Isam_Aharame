@@ -1,0 +1,21 @@
+uuid: 3f8f3ce3-29ad-438d-9df1-b8ecf4fb7af7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rango_de_fechas
+    - node.type.article
+  module:
+    - datetime_range
+id: node.article.field_rango_de_fechas
+field_name: field_rango_de_fechas
+entity_type: node
+bundle: article
+label: 'Rango de fechas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

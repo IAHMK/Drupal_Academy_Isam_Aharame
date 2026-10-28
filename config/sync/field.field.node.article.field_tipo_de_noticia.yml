@@ -1,0 +1,29 @@
+uuid: 9ca8e6c5-55f4-474c-88fb-444efe072037
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_noticia
+    - node.type.article
+    - taxonomy.vocabulary.tipo_de_noticia
+id: node.article.field_tipo_de_noticia
+field_name: field_tipo_de_noticia
+entity_type: node
+bundle: article
+label: 'tipo de noticia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_de_noticia: tipo_de_noticia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

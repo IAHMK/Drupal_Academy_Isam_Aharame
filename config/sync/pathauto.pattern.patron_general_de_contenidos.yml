@@ -1,0 +1,25 @@
+uuid: 08fefda4-ba43-4d32-be46-82296464814d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.post_blog
+    - node.type.recursos_didacticos
+  module:
+    - node
+id: patron_general_de_contenidos
+label: 'Patrón general de contenidos'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:title]'
+selection_criteria:
+  876c95c9-bd84-4712-841e-1cda454c169e:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      post_blog: post_blog
+      recursos_didacticos: recursos_didacticos
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,12 @@
+uuid: 8bd152b2-8001-4c73-8e3f-0599bb3062e1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'Mi sitio Web con Metatag'
+  title: '[current-page:title] | [site:name]'

@@ -1,0 +1,21 @@
+uuid: b8250eaa-0374-4f97-ad1b-ec0e5f84742d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mi_telefono
+    - node.type.article
+  module:
+    - telephone
+id: node.article.field_mi_telefono
+field_name: field_mi_telefono
+entity_type: node
+bundle: article
+label: 'Teléfono '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,29 @@
+uuid: b9fa9860-f83a-4acf-aa46-1513e6c7798f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_recurso_didactico
+    - node.type.recursos_didacticos
+    - taxonomy.vocabulary.type_of_didactic_resource
+id: node.recursos_didacticos.field_tipo_de_recurso_didactico
+field_name: field_tipo_de_recurso_didactico
+entity_type: node
+bundle: recursos_didacticos
+label: 'Tipo de recurso didáctico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_of_didactic_resource: type_of_didactic_resource
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

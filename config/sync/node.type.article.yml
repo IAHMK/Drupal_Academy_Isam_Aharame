@@ -1,0 +1,18 @@
+uuid: 5e72f931-6fee-4063-8141-f082b36a4dd2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Articulo
+type: article
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
