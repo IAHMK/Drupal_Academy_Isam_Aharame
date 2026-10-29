@@ -1,0 +1,9 @@
+uuid: 4e2e4878-4a27-4a7c-b0a4-090abfe0d7d2
+langcode: en
+status: true
+dependencies: {  }
+name: Provincias
+vid: provincias
+description: 'Provincias de España'
+weight: 0
+new_revision: false

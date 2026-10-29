@@ -1,0 +1,24 @@
+uuid: 78fed21b-3f5a-48c7-91f5-4b4964fd88d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.oficina
+  module:
+    - text
+id: node.oficina.field_body
+field_name: field_body
+entity_type: node
+bundle: oficina
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

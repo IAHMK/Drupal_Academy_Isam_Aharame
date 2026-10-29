@@ -1,0 +1,21 @@
+uuid: 70d51e22-aaab-45f3-92a7-ec368801af0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_nombre_de_responsable
+field_name: field_nombre_de_responsable
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
